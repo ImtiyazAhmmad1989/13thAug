@@ -17,15 +17,8 @@ pipeline{
 		
 			script{
 			
-			println jenkins_param
-			
-			println myJenkinsParam[0]
-			println myJenkinsParam[1]
-			
-			myJenkinsMap.put(myJenkinsParam[0],myJenkinsParam[1]);
-			println myJenkinsMap;
-			
-			utility();
+				
+			utility(myJenkinsParam);
 			
 			
 			}
