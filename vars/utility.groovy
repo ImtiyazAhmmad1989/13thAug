@@ -11,12 +11,12 @@ def m1(parent,myJenkinsParam){
 		
 		for(kv in keyVal)
 		{
-		myJenkinsMap.put(kv,1);
+		parent.myJenkinsMap.put(kv,1);
 		}
 	}
 	
 	
-	println myJenkinsMap;
+	println parent.myJenkinsMap;
 
 }
 
