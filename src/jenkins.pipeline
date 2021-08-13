@@ -12,6 +12,8 @@ pipeline{
 		
 			script{
 			
+			println jenkins_param
+			
 			
 			
 			}
