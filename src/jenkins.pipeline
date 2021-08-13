@@ -1,5 +1,8 @@
 @Library('13thAug-shared-lib') _
 
+@Field Map<String,String> myJenkinsMap= new LinkedHashMap();
+
+
 pipeline{
 
 	agent any
@@ -14,6 +17,7 @@ pipeline{
 			
 			println jenkins_param
 			
+			myJenkinsMap.put(jenkins_param);
 			
 			utility();
 			
