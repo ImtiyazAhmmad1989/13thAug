@@ -1,5 +1,5 @@
 @Library('13thAug-shared-lib') _
-
+import groovy.transform.Field
 @Field Map<String,String> myJenkinsMap= new LinkedHashMap();
 
 
