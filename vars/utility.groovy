@@ -9,10 +9,9 @@ def m1(parent,myJenkinsParam){
 	for (p in myJenkinsParam){
 	String keyVal= p.split(":");
 		
-		for(kv in keyVal)
-		{
+		
 		parent.myJenkinsMap.put(kv,1);
-		}
+		
 	}
 	
 	
