@@ -15,7 +15,7 @@ pipeline{
 			println jenkins_param
 			
 			
-			utility.m1();
+			utility();
 			
 			
 			}
