@@ -2,6 +2,8 @@
 import groovy.transform.Field
 @Field Map<String,String> myJenkinsMap= new LinkedHashMap();
 
+@Field String[] myJenkinsParam=jenkins_param.split(";");
+
 
 pipeline{
 
@@ -16,6 +18,9 @@ pipeline{
 			script{
 			
 			println jenkins_param
+			
+			println myJenkinsParam[0]
+			println myJenkinsParam[1]
 			
 			myJenkinsMap.put(jenkins_param);
 			
