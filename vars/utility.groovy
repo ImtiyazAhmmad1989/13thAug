@@ -1,6 +1,10 @@
-def m1(){
+def m1(myJenkinsParam){
 
+	
+	
 	println "Hello from m1()!!!!!!!!!!!!!!"
+	
+	println myJenkinsParam;
 	
 
 }
