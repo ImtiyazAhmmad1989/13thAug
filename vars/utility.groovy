@@ -10,7 +10,7 @@ def m1(parent,myJenkinsParam){
 	String keyVal= p.split(":");
 		
 		
-		parent.myJenkinsMap.put(keyVal,1);
+		parent.myJenkinsMap.put(keyVal[0],1);
 		
 	}
 	
